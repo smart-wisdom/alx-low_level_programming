@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - A c program that prints a new line to the standard error
+ * main - A program without printf and puts
  *
  * Return: always (1)
  *
