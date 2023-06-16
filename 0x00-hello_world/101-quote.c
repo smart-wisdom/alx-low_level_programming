@@ -2,9 +2,7 @@
 #include <unistd.h>
 /**
  * main - A program without printf and puts
- *
  * Return: 1 (Success)
- *
  */
 int main(void)
 {
