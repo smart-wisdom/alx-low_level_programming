@@ -5,24 +5,20 @@
  */
 int main(void)
 {
-	char a;
+	char Lower = 'a';
+	char Upper = 'A';
 
-	char b;
-
-	a = 'a';
-	b = 'A';
 	while
-		(a <= 'z');
+		(Lower <= 'z');
 	{
-			putchar(a);
-			a++;
-		}
-	while
-		(b <= 'Z');
+			putchar(Lower);
+			Lower++;
+	} while
+		(Upper <= 'Z');
 	{
-			putchar(b);
-			b++;
-		}
+			putchar(Upper);
+			Upper++;
+	}
 	putchar('\n');
 	return (0);
 }
