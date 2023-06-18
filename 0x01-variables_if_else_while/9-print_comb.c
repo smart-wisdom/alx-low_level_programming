@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Peints all possible combinatuons with commas
+ * main - Peints all possible combinatuons
  * Return: 0
  */
 int main(void)
