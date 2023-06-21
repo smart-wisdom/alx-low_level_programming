@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
  * main - program that finds and prints the first 98 Fibonacci numbers
+ * seperated by 1 and 2 and a comma.
  * Return: 0
  */
 int main(void)
 {
 	int count;
-	unsigned long f_1 = 0, f_2 = 2, val;
+	unsigned long f_1 = 0, f_2 = 1, val;
 	unsigned long f1_h1, f1_h2, f2_h1, f2_h2;
 	unsigned long h_1, h_2;
 
