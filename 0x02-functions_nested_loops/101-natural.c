@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main -  program that computes and prints the sum of all the multiples
  * Return: 0
