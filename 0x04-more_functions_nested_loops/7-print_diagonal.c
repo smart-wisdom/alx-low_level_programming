@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * print_diagonal -  function that draws a diagonal line
- * @n: the number of times the character \
+ * print_diagonal -  function that draws a diagonal line parameter
+ * @n: the number of times the to print \ lines
  * Return: 0
  */
 void print_diagonal(int n)
 {
 	int a, c;
 
-	if (n < 0)
+	if (n <= 0)
 	{
 	_putchar('\n');
 	}
