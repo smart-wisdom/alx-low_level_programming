@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * print_buffer - function that prints a buffer
@@ -19,25 +19,21 @@ void print_buffer(char *b, int size)
 	}
 	while (a < size)
 	{
-
 	d = size - a < 10 ? size - a : 10;
 	printf("%08x:", a);
-
 	for (c = 0; c < 10; c++)
 	{
 	if (c < d)
 	printf("%02x", *(b + a + c));
 	else
-	printf(" ");
+	printf("  ");
 	if (c % 2)
 	{
 	printf(" ");
 	}
 	}
-
 	for (c = 0; c < d; c++)
-	{
-
+	i{
 	int x = *(b + a + c);
 
 	if (x < 32 || x > 132)
