@@ -34,6 +34,7 @@ void print_buffer(char *b, int size)
 	}
 	for (c = 0; c < d; c++)
 	{
+
 	int x = *(b + a + c);
 
 	if (x < 32 || x > 132)
