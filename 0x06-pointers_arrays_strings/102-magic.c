@@ -1,17 +1,23 @@
 #include <stdio.h>
-/**
- * main - program that prints the variables in one line
- * *p: not to be modified
- * Return: 0
- */
 
 int main(void)
 {
-	int a[5] = (65, 66, 67, 68, 69);
+	int n;
+	int a[5];
 	int *p;
 
 	a[2] = 1024;
-	p = a;
-	printf("a[2] = %d\n", *(p + 2));
+	p = &n;
+	/*
+	 * write your line of code here.
+	 * Remember
+	 * - you are not allowed to use a
+	 * - you are not allowed to modify p
+	 * - only one statement
+	 * - you're not allowed to code anything else than the line of code at the expected line
+	 */
+	*(p + 5) = 98;
+	/* - ...code should print 98\n */
+	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
