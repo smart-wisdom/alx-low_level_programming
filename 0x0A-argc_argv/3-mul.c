@@ -29,8 +29,6 @@ int _atoi(char *s)
 			digs = s[i] - '0';
 			if (x % 2)
 				digs = -digs;
-			if (x % 2)
-				digs = -digs;
 			n = n * 10 + digs;
 			f = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
