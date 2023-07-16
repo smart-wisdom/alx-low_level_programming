@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 #define ERR_MSG "Error"
+
 /**
  * is_digit - string containing a non-digit char
  * @s: eveluated string
@@ -67,7 +69,7 @@ int main(int argc, char *argv[])
 		return (1);
 	for (x = 0; x <= lent1 + lent2; x++)
 		result[x] = 0;
-	for (lent1 = lent2 - 1; lent1 >= 0; lent1--)
+	for (lent1 = lent1 - 1; lent1 >= 0; lent1--)
 	{
 		dig1 = s1[lent1] - '0';
 		carry = 0;
