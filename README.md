@@ -1,1 +1,1 @@
-ALX LOW LEVEL PROGRAMMING PROJECTS
+C - Pointers, arrays and strings
