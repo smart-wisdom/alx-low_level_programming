@@ -3,13 +3,13 @@
 /**
  * rot13 - function that encodes a string using rot13
  * @s: strings to point the parameter
- * Return: 0
+ * Return: *s
  */
 char *rot13(char *s)
 {
 	int x;
 	int y;
-	char data1[] = "ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (x = 0; s[x] != '\0'; x++)
